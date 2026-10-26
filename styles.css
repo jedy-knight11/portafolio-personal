@@ -1,0 +1,54 @@
+/* ==========================================================
+   Portafolio personal - Jose E. Davalos Yepez
+   Paleta basada en la identidad visual de GRUPECU
+   ========================================================== */
+
+/* ---------- Variables ---------- */
+:root {
+    /* Colores */
+    --color-fondo: #1b2d59;
+    --color-fondo-oscuro: #14223f;
+    --color-dorado: #e0b945;
+    --color-acento: #383b92;
+    --color-texto: #d1d1d1;
+    --color-blanco: #ffffff;
+    --color-borde: rgba(255, 255, 255, 0.12);
+    --color-vidrio: rgba(255, 255, 255, 0.05);
+
+    /* Tipografías */
+    --fuente-titulos: 'Caladea', Georgia, serif;
+    --fuente-texto: 'Mulish', 'Segoe UI', sans-serif;
+
+    /* Espaciados y tamaños */
+    --espacio: 1rem;
+    --ancho-max: 1100px;
+    --radio: 16px;
+    --radio-pill: 999px;
+    --transicion: 0.3s ease;
+}
+
+/* ---------- Reset básico ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- Estilos base ---------- */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: var(--fuente-texto);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
